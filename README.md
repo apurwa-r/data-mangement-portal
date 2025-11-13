@@ -1,12 +1,12 @@
-# EPAR Data Portal
+# Data Portal
 
-A dual-portal web application for uploading, searching, and downloading EPAR research outputs and datasets. Built for the Evans School Policy Analysis & Research (EPAR) at the University of Washington.
+A dual-portal web application for uploading, searching, and downloading  research outputs and datasets. Built for  a project at the University of Washington.
 
 ## Overview
 
-The EPAR Data Portal provides two distinct interfaces:
-- **Uploader Portal**: For EPAR staff to upload research outputs with comprehensive metadata
-- **Downloader Portal**: For users to search, filter, and download EPAR resources
+The  Data Portal provides two distinct interfaces:
+- **Uploader Portal**: For  staff to upload research outputs with comprehensive metadata
+- **Downloader Portal**: For users to search, filter, and download  resources
 
 The system uses React for the frontend, Azure Functions for the backend API, SQLite with FTS5 for full-text search, and Azure Blob Storage for file storage.
 
@@ -186,10 +186,10 @@ GET /api/search
 
 **Query Parameters:**
 - `q` - Search query (optional)
-- `researchAreas` - Comma-separated list (optional)
-- `geographies` - Comma-separated list (optional)
-- `outputTypes` - Comma-separated list (optional)
-- `poContacts` - Comma-separated list (optional)
+- `researchAreas` - Comma-sated list (optional)
+- `geographies` - Comma-sated list (optional)
+- `outputTypes` - Comma-sated list (optional)
+- `poContacts` - Comma-sated list (optional)
 - `dateFrom` - Start date in YYYY-MM format (optional)
 - `dateTo` - End date in YYYY-MM format (optional)
 
@@ -347,7 +347,7 @@ BLOB_CONN=DefaultEndpointsProtocol=https;AccountName=youraccountname;AccountKey=
 
 ## Contributing
 
-This project is maintained by EPAR at the University of Washington.
+This project is maintained by  at the University of Washington.
 
 ## License
 
