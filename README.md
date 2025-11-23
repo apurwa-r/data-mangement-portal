@@ -80,7 +80,7 @@ The system uses React for the frontend, Azure Functions for the backend API, SQL
 
 #### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/apurwa-r/data-mangement-portal.git
 cd data-management
 ```
 
@@ -186,10 +186,10 @@ GET /api/search
 
 **Query Parameters:**
 - `q` - Search query (optional)
-- `researchAreas` - Comma-sated list (optional)
-- `geographies` - Comma-sated list (optional)
-- `outputTypes` - Comma-sated list (optional)
-- `poContacts` - Comma-sated list (optional)
+- `researchAreas` - Comma-separated list (optional)
+- `geographies` - Comma-separated list (optional)
+- `outputTypes` - Comma-separated list (optional)
+- `poContacts` - Comma-separated list (optional)
 - `dateFrom` - Start date in YYYY-MM format (optional)
 - `dateTo` - End date in YYYY-MM format (optional)
 
@@ -310,13 +310,13 @@ BLOB_CONN=DefaultEndpointsProtocol=https;AccountName=youraccountname;AccountKey=
 - [x] Search API with filters
 - [x] Download API with SAS URLs
 - [x] Upload API with file handling
-- [x] React frontend with UW theme
+- [x] React frontend
 - [x] Downloader portal (search & download)
 - [x] Uploader portal (upload & metadata)
 - [x] Multi-page authentication flow
 - [x] Mode switching (uploader/downloader)
 - [x] Dual-mode support (mock/Azure)
-- [ ] Real Microsoft authentication (optional)
+- [ ] Microsoft authentication (optional)
 - [ ] Content extraction from files (optional)
 - [ ] Edit/delete functionality (optional)
 
@@ -345,11 +345,5 @@ BLOB_CONN=DefaultEndpointsProtocol=https;AccountName=youraccountname;AccountKey=
 - Verify file types are supported (.pdf, .txt, .md, .docx, .xlsx)
 - Check database permissions
 
-## Contributing
 
-This project is maintained by  at the University of Washington.
-
-## License
-
-TBD
 
